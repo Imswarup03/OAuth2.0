@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In With Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .login-container {
+            text-align: center;
+        }
+        .login-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0e60e5; /* Google Blue */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .login-button:hover {
+            background-color: #357AE8; /* Darker Google Blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h1>Sign In With Google</h1>
+        <br> <!-- Line break added here -->
+        <a class="login-button" href="/auth/google">Sign In With Google</a>
+    </div>
+</body>
+</html>
